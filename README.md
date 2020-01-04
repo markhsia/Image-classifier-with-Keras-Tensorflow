@@ -1,6 +1,3 @@
-Image classifier with Keras + Tensorflow  
-Image classifier
-
 ## 簡介
 用最新的Keras當作Tensorflow的front-end可以輕鬆架構出convolutions的模型。  
 例如在Fashion MNIST的分類的應用上，要使用第一層為2D Convolution且包含32個3*3的filter、第二層為2D Max Pooling層、第五層為分類總數的softmax層時，只需用以下程式碼即可架構好。[1][2]  
